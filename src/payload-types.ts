@@ -339,6 +339,7 @@ export interface Post {
 export interface User {
   id: string;
   name?: string | null;
+  phoneNumber?: string | null;
   updatedAt: string;
   createdAt: string;
   email: string;

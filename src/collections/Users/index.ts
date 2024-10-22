@@ -21,6 +21,10 @@ const Users: CollectionConfig = {
       name: 'name',
       type: 'text',
     },
+    {
+      name: 'phoneNumber',
+      type: 'text',
+    },
   ],
   timestamps: true,
 }
